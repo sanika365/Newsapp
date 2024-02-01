@@ -1,8 +1,8 @@
 import React from "react";
-//import News from "./News";
 
 const NewsItems = (props) => {
-  let { title, description, imageUrl, NewsUrl, author, date, source } = props;
+  let { title, description, imageUrl, newsUrl, author, date, source } = props;
+    
   return (
     <div className='my-3'>
       <div className='card'>
@@ -14,7 +14,7 @@ const NewsItems = (props) => {
             right: "0",
           }}
         >
-          <span class=' badge rounded-pill bg-danger'>{source} </span>
+          <span className='badge rounded-pill bg-danger'>{source} </span>
         </div>
         <img
           src={
@@ -25,7 +25,7 @@ const NewsItems = (props) => {
           className='card-img-top'
           alt='...'
         />
-        <div class='card-body'>
+        <div className='card-body'>
           <h5 className='card-title'>{title}</h5>
           <p className='card-text'>{description}</p>
           <p className='card-text'>
@@ -36,10 +36,10 @@ const NewsItems = (props) => {
             </small>
           </p>
           <a
-            href={NewsUrl}
+            href={newsUrl}
             target='_blank'
             rel='noreferrer'
-            className='btn-btn-sm btn-dark'
+            className='btn btn-sm btn-dark'
           >
             Read more
           </a>
@@ -48,4 +48,5 @@ const NewsItems = (props) => {
     </div>
   );
 };
+
 export default NewsItems;

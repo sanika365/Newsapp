@@ -1,19 +1,77 @@
-//import logo from './logo.svg';
-import "./App.css";
-
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import News from "./components/News";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useParams,
+} from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
 
 const App = () => {
   const pageSize = 5;
-  const apiKey = process.env.REACT_APP_NEWS_API;
-  console.log("API Key:", apiKey);
-  
   const [progress, setProgress] = useState(0);
+  const apiKey = process.env.REACT_APP_NEWS_API; // Replace "your_api_key_here" with your actual NewsAPI key
 
+//   return (
+//     <div>
+//       <Router>
+//         <Navbar />
+//         <LoadingBar height={3} color='#f11946' progress={progress} />
+//         <Routes>
+//           <Route
+//             exact
+//             path='/'
+//             element={
+//               <NewsPage
+//                 setProgress={setProgress}
+//                 pageSize={pageSize}
+//                 category='general'
+//                 apiKey={apiKey}
+//               />
+//             }
+//           />
+//           <Route
+//             path='/:category'
+//             element={
+//               <CategoryNews
+//                 setProgress={setProgress}
+//                 pageSize={pageSize}
+//                 apiKey={apiKey}
+//               />
+//             }
+//           />
+//         </Routes>
+//       </Router>
+//     </div>
+//   );
+// };
+
+// const NewsPage = ({ setProgress, pageSize, category, apiKey }) => {
+//   return (
+//     <News
+//       setProgress={setProgress}
+//       pageSize={pageSize}
+//       country='in'
+//       category={category}
+//       apiKey={apiKey}
+//     />
+//   );
+// };
+
+// const CategoryNews = ({ setProgress, pageSize, apiKey }) => {
+//   const { category } = useParams();
+//   return (
+//     <News
+//       setProgress={setProgress}
+//       pageSize={pageSize}
+//       country='in'
+//       category={category}
+//       apiKey={apiKey}
+//     />
+//   );
+// };
   return (
     <div>
       <Router>
@@ -125,3 +183,4 @@ const App = () => {
   );
 };
 export default App;
+

@@ -68,3 +68,67 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Here is the  demo of newsapp
+          
+
+1. Top headlines from each industry
+                           ![Screenshot (19)](https://github.com/sanika365/Newsapp/assets/118174764/cda2df44-7b40-4120-a48c-57aa3c2b3549)
+   
+   
+
+
+
+
+                               
+![Screenshot (20)](https://github.com/sanika365/Newsapp/assets/118174764/a2efb4b5-6214-481e-87d2-9ac816a1cd95)
+
+
+
+
+
+![Screenshot (21)](https://github.com/sanika365/Newsapp/assets/118174764/6a1c38d0-70ed-44ba-9c4a-bbcb8d8833c8)
+
+
+![Screenshot (23)](https://github.com/sanika365/Newsapp/assets/118174764/60f4f173-289f-4771-a6e9-eea660130b73)
+
+
+
+
+![Screenshot (22)](https://github.com/sanika365/Newsapp/assets/118174764/10a77b92-56ea-4d9c-88c5-7e6ad618d51c)
+
+
+
+
+
+
+
+<img width="960" alt="Screenshot 2024-02-03 171647" src="https://github.com/sanika365/Newsapp/assets/118174764/0ee889c1-f98a-48e5-b274-029095b3670f">
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. User can click on read more button to read about details of news here it is-
+
+                 
+     
+![Screenshot (24)](https://github.com/sanika365/Newsapp/assets/118174764/8e17bc85-4bb6-433a-9f8d-95aa0b92bd52)
+
+
+
+
+
+
+
+
+
+
